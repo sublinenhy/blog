@@ -13,7 +13,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
-            <span class="text-light font-italic">Made With Love By Laravel</span>
             <hr>
 
             <div class="navbar-nav">
