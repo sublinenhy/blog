@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','SitesController@index');
 
-Route::get('/about',function (){
-   return 'hello this is camden';
-});
+Route::get('/about','SitesController@about');
