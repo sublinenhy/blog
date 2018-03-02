@@ -1,5 +1,11 @@
 @extends('app')
 
+@section('nav_active_2')
+    active
+@stop
+
+
+
 @section('content')
 
     <div class="container-fluid mt-4">
@@ -23,7 +29,7 @@
 
                         </div>
 
-                        <a href="#" class="btn btn-primary mt-lg-1  ">查看全文</a>
+                        <a href="/articles/{{$article->id}}" class="btn btn-primary mt-lg-1  ">查看全文</a>
 
                     </div>
 

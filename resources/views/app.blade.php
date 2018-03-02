@@ -19,14 +19,16 @@
 
             <hr>
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="/about">about</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                <a class="nav-item nav-link @yield('nav_active_1')" href="/">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link @yield('nav_active_2')" href="/articles">Articles</a>
+                <a class="nav-item nav-link @yield('nav_active_3')" href="/about">about</a>
+                <a class="nav-item nav-link @yield('nav_active_4')" href="/articles/create">Create</a>
             </div>
 
         </div>
     </nav>
+
+
     @yield('content')
 
 

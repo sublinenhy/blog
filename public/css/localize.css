@@ -1,3 +1,10 @@
 body{
     padding-top: 70px;
 }
+
+.article__content{
+
+    width: 50%;
+    margin-left: 25%;
+
+}

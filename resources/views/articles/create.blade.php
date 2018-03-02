@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('nav_active_1')
+@section('nav_active_4')
     active
 @stop
 
